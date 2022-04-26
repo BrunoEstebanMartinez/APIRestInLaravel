@@ -18,6 +18,7 @@ use Illuminate\Support\Facades\Route;
 });
 */
 
-
+Route::get('users', 'Users@getUsers');
+Route::get('ViewStudents', 'StudentController@ViewStudents');
 
 
